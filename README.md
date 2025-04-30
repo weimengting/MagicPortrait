@@ -14,9 +14,7 @@ _[arXiv]() | [Model](https://huggingface.co/mengtingwei/MagicPortrait)_
 
 This repository contains the example inference script for the MagicPortrait-preview model.
 
-<video width="640" height="360" controls>
-  <source src="./assets/combined_with_transitions_24.mp4" type="video/mp4">
-</video>
+https://github.com/user-attachments/assets/e7f1c4fd-e817-4940-ab0a-a440bf71183c
 
 ## Installation
 

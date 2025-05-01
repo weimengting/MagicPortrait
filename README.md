@@ -14,7 +14,7 @@ _[arXiv](https://arxiv.org/abs/2504.21497) | [Model](https://huggingface.co/meng
 
 This repository contains the example inference script for the MagicPortrait-preview model.
 
-https://github.com/user-attachments/assets/e7f1c4fd-e817-4940-ab0a-a440bf71183c
+https://github.com/user-attachments/assets/9471fdd9-948a-47dd-a632-2adfc631be50
 
 ## Installation
 
@@ -87,11 +87,11 @@ python crop_process.py --sign image --img_path './assets/boy.jpeg' --save_path '
        mkdir ./assets/driving_images
        ffmpeg -i ./assets/driving.mp4 ./assets/driving_images/frame_%04d.jpg
       ```
- Crop face from the driving images.
+    Crop face from the driving images.
 ```python
 python crop_process.py --sign video --video_path './assets/driving_images' --video_imgs_dir './assets/driving_images_cropped'
 ```
-   
+
 3. Retrieve guidance images using DECA and SMIRK models.
 
 ```python

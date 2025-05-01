@@ -10,7 +10,7 @@
 [Guoying Zhao]()
 <br>
 
-_[arXiv]() | [Model](https://huggingface.co/mengtingwei/MagicPortrait)_
+_[arXiv](https://arxiv.org/abs/2504.21497) | [Model](https://huggingface.co/mengtingwei/MagicPortrait)_
 
 This repository contains the example inference script for the MagicPortrait-preview model.
 
@@ -71,7 +71,8 @@ decalib
 
 > As our model is designed to focus only on the face, 
 > you should crop the face from your images or videos if they are full-body shots.
->  However, **if your images or videos already contain only the face and their resolution is similar to ours (512×512), you can skip this step**.
+>  However, **if your images or videos already contain only the face and the aspect ratio is approximately 1:1, 
+> you can simply resize them without doing the following pre-processing steps.**.
 
 1. Crop the face from an image:
 

@@ -6,7 +6,6 @@
 [Yante Li](),
 [Tuomas Varanka](),
 [Yan Jiang](),
-[Licai Sun](),
 [Guoying Zhao]()
 <br>
 
@@ -87,7 +86,7 @@ python crop_process.py --sign image --img_path './assets/boy.jpeg' --save_path '
        mkdir ./assets/driving_images
        ffmpeg -i ./assets/driving.mp4 ./assets/driving_images/frame_%04d.jpg
       ```
-    Crop face from the driving images.
+       Crop face from the driving images.
 ```python
 python crop_process.py --sign video --video_path './assets/driving_images' --video_imgs_dir './assets/driving_images_cropped'
 ```

@@ -71,7 +71,7 @@ decalib
 > As our model is designed to focus only on the face, 
 > you should crop the face from your images or videos if they are full-body shots.
 >  However, **if your images or videos already contain only the face and the aspect ratio is approximately 1:1, 
-> you can simply resize them without doing the following pre-processing steps.**.
+> you can simply resize them into resolution of 512 $\times$ 512 without doing the following crop (1 and 2) steps.**
 
 1. Crop the face from an image:
 
@@ -86,7 +86,7 @@ python crop_process.py --sign image --img_path './assets/boy.jpeg' --save_path '
        mkdir ./assets/driving_images
        ffmpeg -i ./assets/driving.mp4 ./assets/driving_images/frame_%04d.jpg
       ```
-       Crop face from the driving images.
+    Crop face from the driving images.
 ```python
 python crop_process.py --sign video --video_path './assets/driving_images' --video_imgs_dir './assets/driving_images_cropped'
 ```
